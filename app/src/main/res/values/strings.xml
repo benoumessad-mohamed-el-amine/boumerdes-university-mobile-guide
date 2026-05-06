@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UMBB MobGuide</string>
+    <string name="welcome_title">University M’Hamed Bougara</string>
+    <string name="welcome_subtitle">UMBB Digital Guide</string>
+    <string name="umbb_description">The University of Boumerdès (UMBB) is a leading Algerian higher education institution located in the coastal city of Boumerdès. Established in 1964, it offers specialized programs in Earth Sciences, Technology, Hydrocarbons, and Economics.</string>
+    <string name="explore_faculties">Explore Faculties</string>
+    <string name="faculties_title">Our Faculties</string>
+    <string name="departments_title">Departments of %s</string>
+    <string name="search_hint">Search faculties or departments…</string>
+    <string name="no_results">No results found</string>
+    <string name="call_us">Call</string>
+    <string name="send_sms">SMS</string>
+    <string name="send_email">Email</string>
+    <string name="locate_us">Locate</string>
+    <string name="details_title">Detailed Information</string>
+    <string name="specialties_label">Main Specialties:</string>
+    <string name="contact_info">Contact &amp; Location</string>
+    <string name="faculty_sciences">Faculty of Sciences</string>
+    <string name="faculty_tech">Faculty of Technology</string>
+    <string name="faculty_hydro">Faculty of Hydrocarbons and Chemistry</string>
+    <string name="faculty_eco">Faculty of Economic &amp; Management Sciences</string>
+    <string name="faculty_law">Faculty of Law and Political Science</string>
+    <string name="institute_igee">Institute of Electrical &amp; Electronic Engineering (IGEE)</string>
+</resources>

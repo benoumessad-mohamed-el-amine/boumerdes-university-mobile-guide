@@ -1,0 +1,68 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[arabic,english]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{color}
+
+\geometry{margin=1in}
+
+\title{UMBB MobGuide: Mobile Project Report}
+\author{Group Members: Amine \& Team}
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The \textbf{UMBB MobGuide} is a digital guide developed for the University of M'hamed Bougara of Boumerdès (UMBB). The application aims to provide students, researchers, and visitors with a centralized platform to explore the various faculties and departments of the university, access detailed information, and facilitate direct contact and navigation.
+
+\section{Application Components}
+The application is built using the Android SDK with Java and XML, following a Model-View-Controller (MVC) architecture.
+
+\subsection{Activities and Interfaces}
+\begin{itemize}
+    \item \textbf{MainActivity}: Serves as the landing page, displaying a general presentation of the university and its history.
+    \item \textbf{FacultyListActivity}: Displays a comprehensive list of all faculties using a ListView. It includes a SearchView for filtering.
+    \item \textbf{DepartmentListActivity}: Shows the departments associated with the selected faculty.
+    \item \textbf{DetailActivity}: Provides in-depth information about a specific faculty or department, including specialties and contact actions.
+\end{itemize}
+
+\subsection{Data Management}
+\begin{itemize}
+    \item \textbf{DataManager}: A utility class that manages data using dynamic \texttt{ArrayLists}, simulating a database environment.
+    \item \textbf{Models}: \texttt{Faculty} and \texttt{Department} classes define the structure of university entities.
+\end{itemize}
+
+\section{Features Implemented}
+The following features have been successfully integrated:
+\begin{enumerate}
+    \item \textbf{University Presentation}: Detailed textual description of UMBB.
+    \item \textbf{Faculty \& Department Browsing}: Hierarchical navigation through university structures.
+    \item \textbf{Search Functionality}: Real-time search integrated into the list activities.
+    \item \textbf{Multilingual Interface}: Support for both English and Arabic.
+    \item \textbf{Interactive Actions}:
+    \begin{itemize}
+        \item \textbf{Call}: Direct dialing to the administration.
+        \item \textbf{SMS}: Pre-filled recipient for quick inquiries.
+        \item \textbf{Email}: Automated composition of inquiry emails.
+        \item \textbf{Google Maps}: GPS navigation to the physical location.
+    \end{itemize}
+\end{enumerate}
+
+\section{Task Distribution}
+The project was completed in a collaborative environment with the following distribution of roles:
+\begin{itemize}
+    \item \textbf{Lead Developer}: Implementation of core logic, activities, and intent handling.
+    \item \textbf{UI/UX Designer}: Creation of XML layouts, custom font integration, and SVG icon design.
+    \item \textbf{Data Analyst}: Information gathering about UMBB and data modeling.
+    \item \textbf{Technical Writer}: Production of this LaTeX documentation and the presentation walkthrough.
+\end{itemize}
+
+\section{Conclusion}
+The UMBB MobGuide successfully fulfills the pedagogical objectives of the mobile development module. It demonstrates practical knowledge of Android components, lifecycle management, and user-centric design.
+
+\end{document}

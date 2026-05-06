@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.umbb.mobguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_university"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_university"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMBB_MobGuide">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FacultyListActivity"
+            android:label="@string/faculties_title" />
+
+        <activity
+            android:name=".DepartmentListActivity" />
+
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/details_title" />
+
+    </application>
+
+</manifest>

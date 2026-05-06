@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A1A1A</color> <!-- Charcoal -->
+    <color name="colorPrimaryVariant">#333333</color>
+    <color name="colorAccent">#007AFF</color> <!-- iOS Blue for visibility -->
+    <color name="colorTextPrimary">#E5E5E5</color> <!-- Off-white/Cream -->
+    <color name="colorTextSecondary">#B3B3B3</color>
+    <color name="colorBackground">#0F0F0F</color> <!-- Dark background -->
+    <color name="colorCardBackground">#1F1F1F</color>
+    <color name="colorDivider">#3F3F3F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

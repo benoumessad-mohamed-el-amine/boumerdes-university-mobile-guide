@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UMBB MobGuide</string>
+    <string name="welcome_title">جامعة محمد بوقرة</string>
+    <string name="welcome_subtitle">الدليل الرقمي لجامعة بومرداس</string>
+    <string name="umbb_description">جامعة بومرداس (UMBB) هي مؤسسة تعليم عالي جزائرية رائدة تقع في مدينة بومرداس الساحلية. تأسست عام 1964 وتقدم برامج متخصصة في علوم الأرض والتكنولوجيا والمحروقات والاقتصاد.</string>
+    <string name="explore_faculties">استكشاف الكليات</string>
+    <string name="faculties_title">كلياتنا</string>
+    <string name="departments_title">أقسام %s</string>
+    <string name="search_hint">ابحث عن كلية أو قسم…</string>
+    <string name="no_results">لا توجد نتائج</string>
+    <string name="call_us">اتصال</string>
+    <string name="send_sms">رسالة قصيرة</string>
+    <string name="send_email">إيميل</string>
+    <string name="locate_us">الموقع</string>
+    <string name="details_title">معلومات مفصلة</string>
+    <string name="specialties_label">التخصصات الرئيسية:</string>
+    <string name="contact_info">التواصل والموقع</string>
+    <string name="faculty_sciences">كلية العلوم</string>
+    <string name="faculty_tech">كلية التكنولوجيا</string>
+    <string name="faculty_hydro">كلية المحروقات والكيمياء</string>
+    <string name="faculty_eco">كلية العلوم الاقتصادية وعلوم التسيير</string>
+    <string name="faculty_law">كلية الحقوق والعلوم السياسية</string>
+    <string name="institute_igee">معهد الهندسة الكهربائية والإلكترونية (IGEE)</string>
+</resources>
